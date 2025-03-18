@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir essas imagens em dispositivos diferentes ou aumente e dimunua o tamanho do seu navegador</p>
+
+    <p>USANDO A TAG PICTURE</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMGS/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="IMGS/foto-m.png" type="image/png">
+        <img src="IMGS/foto-g.png" alt="Imagem Flexível">
+    </picture>
+<h2>RESUMO</h2>
+<P>ADAPTAÇÃO DE IMAGEM <br> use a TAG picture <br> para todas as imagens que vai adaptar no site. <br>use a TAG source-media-type, max, em srcset coloque o nome da pasta que estao as imagens e em type, use image/png.</P>
+
+<h1>Vamos aprender a reproduzir audios em HTML5</h1>
+<audio src="midia/happy-mistake.mp3" controls></audio>
+
+
+
+
+<p>Basicamente, usamos a TAG AUDIO, entao selecionamos com crtl+espaço a musica na pasta</p>
+<p>Use a tag AUTOPLAY para o audio reproduzir assim que entrar no site</p>
+<p>Use a tag LOOP para o audio se reproduzir novamente</p>
+
+
+<h2>Adicionando controle para a musica</h2>
+   <p>Entre o > coloque a TAG controls</p>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+ 
+
+body{
+
+    background-color: rgb(152, 182, 192); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: brown;
+    background-color: black;
+}
+
+h2{
+    color: rgba(15, 2, 33, 0.477);
+    background-color: rgb(112, 162, 236);
+}
+p{
+    text-align: center;
+}
