@@ -59,12 +59,12 @@ h1{
 
     div#i1{
       background-image: url(imagens/background001.jpg);
-      background-size: 100%;
+      background-size: cover;
+      background-attachment: fixed;
     }
 
     div#i3{
       background-image: url(imagens/background002.jpg);
-      
       background-size: cover;
       background-attachment: fixed;
       
