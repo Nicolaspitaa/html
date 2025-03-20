@@ -1,3 +1,66 @@
 @charset "UTF-8";
 
-@font-face 
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+
+
+    
+}
+h1{
+    
+    font-family: "Abril Fatface", serif;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    
+  }
+  h2{
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+
+  }
+
+  h2>a{
+    color: white;
+    text-decoration: none;
+  }
+  h2>a:hover{
+    text-decoration: underline;
+  }
+  
+  div{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    padding-right: 100%;
+    word-wrap: break-word; /* Quebra palavras longas */
+  overflow-wrap: break-word;
+    
+    }
+  
+  div >p{
+    padding-top: 50px;
+    line-height: 2;
+    font-size: 4vw;
+    font-family: "Delius", cursive;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left;
+    display: block;
+
+  }
