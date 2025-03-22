@@ -5,39 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+        header{
+            background-color: aquamarine;
+            padding: 50px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3em;
+        font-variant: small-caps;
+
+        }
         table{
+            text-align: center;
             width: 500px;
             border: solid;
-            background-color: rgba(0, 255, 255, 0.338);
+            background-color: rgba(115, 231, 231, 0.338);
+            border-collapse: collapse;
+            margin: auto;
         }
         th{
-            border: 2px solid;
+            border: 2px solid black;
             font-weight: bold;
             font-family: 'Courier New', Courier, monospace;
             font-size: 1.5em;
+            color: white;
+            background-color: rgba(66, 66, 66, 0.845);
         }
-
-        table > tr > td{
+    
+        tbody, td{
             border: 1px solid black;
+            
         }
        
     </style>
 </head>
 <body>
+    <header>
+        Exemplo de Cabeçalho
+    </header>
     <H1>tabelas</H1>
-    <table width="100%"> 
-     <tr>
-         <th>alunos</th>
-         <th>Faltas</th>
-     </tr>
-     <tr>
-         <td>Joao</td>
-         <td>8</td>
-     </tr>
-     <tr>
-         <td>maria</td>
-         <td>6</td>
-     </tr>
+    <table width="100%">
+
+     <tbody>
+         <tr>
+             <th>alunos</th>
+             <th>Faltas</th>
+         </tr>
+         <tr>
+             <td>Joao</td>
+             <td>8</td>
+         </tr>
+         <tr>
+             <td>maria</td>
+             <td>6</td>
+         </tr>
+     </tbody>
 
 
 
