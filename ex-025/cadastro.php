@@ -1,1 +1,1 @@
-Os dados foram enviados
+Seus dados foram enviados
