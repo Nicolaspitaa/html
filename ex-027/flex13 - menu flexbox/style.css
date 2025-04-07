@@ -16,6 +16,11 @@ body{
 header{
     background-color: gray;
     padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header>h1{
@@ -25,11 +30,18 @@ header>h1{
     padding:15px;
     text-align: left;
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 header> nav{
     text-align: right;
     border: 1px dotted black;
-    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    
+    
 }
 
 header> nav > a{
@@ -39,10 +51,12 @@ header> nav > a{
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
     
 }
 header> nav > a:hover{
-background-color: rgb(85, 85, 85);
+background-color: rgb(67, 67, 67);
+transition: .5s;
 }
 
 main{
